@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+}
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Karla', sans-serif; */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    background-color: #1F2937;
+    font-family: 'Inter', sans-serif;
+    height: 550px;
+    margin-top: 65px;
+    width: 550px;
+}
+.card__content {
+    padding: 115px 52px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Karla', sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 380px
+} 
+
+span {
+    color: #4ADF86;
+}
+
+.sub__title {
+    color: #D5D4D8;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 10px 0px 51px 0px;
+}
+
+#generate-password {
+    background-color: #10B981;
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.divider {
+    color: #2F3E53;
+    border: 1px solid;
+    margin: 35px 0px;
+}
+
+.show-passwords {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.pwd__box {
+    background-color: #273549;
+    border-radius: 6px;
+    font-size: 1.6rem;
+    height: 39px;
+    width: 211px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
