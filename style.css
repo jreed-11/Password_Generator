@@ -51,10 +51,16 @@ span {
 
 #generate-password {
     background-color: #10B981;
+    border: none;
     border-radius: 6px;
     color: #ffffff;
     padding: 10px 15px;
     font-weight: 500;
+}
+
+#generate-password:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px lawngreen;
 }
 
 .divider {
@@ -66,15 +72,20 @@ span {
 .show-passwords {
     display: flex;
     justify-content: space-between;
-    
+    gap: 1rem;    
 }
 
 .pwd__box {
+    color:#55F991;
+    text-align: center;
     background-color: #273549;
+    border: 0.2rem solid lawngreen;
+    box-shadow: 0px 0px 10px lawngreen;
     border-radius: 6px;
+    padding-top: 0.8rem;
     font-size: 1.6rem;
-    height: 39px;
-    width: 211px;
+    height: 3.9rem;
+    width: 21.1rem;
 
 }
 
