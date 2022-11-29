@@ -5,7 +5,6 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 
-// let genPwdEL = document.getElementById("generate-password")
 let pwdOne = document.getElementById("password__one")
 let pwdTwo = document.getElementById("password__two")
 let passowrdLength = 15
